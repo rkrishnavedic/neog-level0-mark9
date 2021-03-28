@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.input{
+  cursor: pointer;
+  text-align: center;
+  outline: 1px dotted rgb(127, 58, 255);
+  border-radius: 3%;
+  margin: 2%;
+}
+
+ul{
+  list-style: none;
+}
+
+.input:hover, .input:active {
+  color: white;
+  background-color: rgb(56, 79, 206);
+  outline: 0.5px dashed rgb(5, 4, 0);
+}
