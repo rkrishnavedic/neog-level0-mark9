@@ -103,7 +103,7 @@ function App() {
       Choose your genere and see books!
       </h3>
 
-      <nav style={{padding:"auto",margin:"auto"}}>
+      <nav style={{backgroundColor:"#e4e1e4",padding:"1.5%",margin:"auto"}}>
         
           {
             booksWeHave.map((value)=>{
@@ -124,7 +124,7 @@ function App() {
         <ul>
           {
             Dict[genere].map((value)=>{
-              return <li style={{margin:"20px"}}><div style={{fontSize:"30px"}}>{value.bookName}</div><div>@author:{value.author}</div></li>
+              return <li style={{outline:"1px dotted gray",marginBottom:"20px"}}><div style={{fontSize:"25px"}}>{value.bookName}</div><div>@author:{value.author}</div></li>
             })
           }
         </ul>
